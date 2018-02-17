@@ -1,0 +1,60 @@
+@media screen {
+	body {
+		background: rgb(26, 37, 50);
+		background-image: url("../images/bkg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-align: center;
+
+		border-top: 1px solid #CECECE;
+		background: #FFF;
+		color: #000;
+		font-size: 10pt;
+	}
+
+	form {
+		display: inline;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header-transparent {
+		margin-bottom: 50px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: rgba(107, 155, 211, 0.2);
+	}
+
+	.header-transparent a, #team {
+		display: inline-block;
+	}
+
+	#team {
+		color: #FFF;
+		margin-left: 30px;
+	}
+
+	a {
+		color: cyan;
+	}
+
+	a:hover {
+		color: red;
+	}
+
+	footer div{
+		display: inline;
+	}
+	footer a {
+		color: blue;
+	}
+
+}
